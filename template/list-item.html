@@ -1,0 +1,9 @@
+<td ng-click="car.edit=true" ng-hide="car.edit">{{car.lic}}</td>
+<td ng-show="car.edit"><input type="text" value={{car.lic}} ng-model="car.lic" ng-blur="car.edit=false"></td>
+<td ng-click="car.edit=true" ng-hide="car.edit">{{car.brand}}</td>
+<td ng-show="car.edit"><input type="text" value={{car.brand}} ng-model="car.brand" ng-blur="car.edit=false"></td>
+<td ng-click="car.edit=true" ng-hide="car.edit">{{car.model}}</td>
+<td ng-show="car.edit"><input type="text" value={{car.model}} ng-model="car.model" ng-blur="car.edit=false"></td>
+<td ng-click="car.edit=true" ng-hide="car.edit">{{car.year}}</td>
+<td ng-show="car.edit"><input type="text" value={{car.year}} ng-model="car.year" ng-blur="car.edit=false"></td>
+<td><a href="" ng-click="delCar($index)">Delete</a></td>

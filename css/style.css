@@ -1,0 +1,14 @@
+input {
+	width: 100px;
+}
+
+td,
+th {
+	width: 100px;
+	margin: 0;
+	padding: 10px;
+}
+
+tr:nth-child(odd) {
+	background: #eee;
+}
