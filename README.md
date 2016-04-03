@@ -14,3 +14,4 @@ Built with:
 * CSS
 * JavaScript
 * Angular.js
+* GULP (browsersync, reload)
